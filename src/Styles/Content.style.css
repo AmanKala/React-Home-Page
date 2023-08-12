@@ -1,0 +1,57 @@
+.container {
+    background: url("../Components/Background.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px 0 100px ;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.right-content{
+    color: white;
+    display: inline-block;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.ContentList{
+    display: flex;
+}
+
+
+.icon{
+    padding: 10px 30px 10px 0px;
+}
+
+.para{
+    padding: 20px 0px 0px 10px;
+    color: white;
+    font-size: 28px;
+}
+
+.Heading{
+    font-size: 24px;
+}
+
+.heading-line-2{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.strike{
+    display: flex;
+    color: red;
+    text-decoration: line-through;
+}
+
+.strike-word{
+    display: flex;
+    color:  #0096FF;
+}
+
+.Blue-word{
+    color:  #0096FF;
+}
